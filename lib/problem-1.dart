@@ -12,11 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.white, // Body background color
+        backgroundColor: Colors.white,
         appBar: AppBar(
           title: const Text('First Application'),
           centerTitle: true,
-          backgroundColor: Colors.blueGrey, // AppBar background color
+          backgroundColor: Colors.blueGrey, 
         ),
         body: const Center(
           child: Text(
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             style: TextStyle(
               fontSize: 40,
               fontFamily: 'DMSans',
-              color: Colors.black, // Text color
+              color: Colors.black, 
             ),
           ),
         ),
